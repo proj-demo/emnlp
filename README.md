@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+## Future Work: Incorporating Conceptual Knowledge into Knowledge-attention Encoder  
 
-You can use the [editor on GitHub](https://github.com/proj-demo/emnlp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#### Besides lexical knowledge, we plan to incorporate conceptual knowledge into the proposed knowledge-attention encoder. The conceptual knowledge which is high-level semantics of texts is acquired from encyclopedic knowledge bases such as Probase and Wikipedia. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### This can be done by first generating conceptual indicators related to the specific task (not limited to relation extraction) from encyclopedic knowledge bases; and then conceptualising input texts into high-level concepts according to the conceptual knowledge in the knowledge base; eventually transforming text into concept space through knowledge-attention, where the conceptual information of texts related to the specific task can be captured.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/proj-demo/emnlp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#### Such conceptual information will provide more high-level semantics to the model compared with lexical information, and will be useful for various NLP tasks which require semantic understanding.
