@@ -1,4 +1,5 @@
-## Future Work: Incorporating Conceptual Knowledge into Knowledge-attention Encoder  
+## Future Work
+### Incorporating Conceptual Knowledge into Knowledge-attention Encoder  
 
 #### Besides lexical knowledge, we plan to incorporate conceptual knowledge into the proposed knowledge-attention encoder. The conceptual knowledge which is high-level semantics of texts is acquired from encyclopedic knowledge bases such as Probase and Wikipedia. 
 
